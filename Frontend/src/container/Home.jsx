@@ -5,7 +5,7 @@ import { Link, Route, Routes} from 'react-router-dom'
 
 import { Sidebar, UserProfile } from '../components'
 import { client } from "../client"
-import Klickker from '../assets/Klickker.png'
+import Klickkar from '../assets/Klickkar.png'
 import Pins from "./Pins"
 import { userQuery } from "../utils/data"
 import { fetchUser } from "../utils/fetchUser"
@@ -39,10 +39,10 @@ const userInfo = fetchUser();
         <div className="p-2 w-full flex flex-row justify-between items-center shadow-md">
           <HiMenu fontSize={40} className="cursor-pointer" onClick={() => setToggleSidebar(true)} />
           <Link to="/">
-            <img src={Klickker} alt="Klickker" className="w-28" />
+            <img src={Klickkar} alt="Klickkar" className="w-28" />
           </Link>
           <Link to={`user-profile/${user?._id}`}>
-            <img src={user?.image} alt="Klickker" className="w-28" />
+            <img src={user?.image} alt="Klickkar" className="w-28" />
           </Link>
         </div>
         {toggleSidebar && (

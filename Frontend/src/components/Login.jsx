@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import {FcGoogle} from 'react-icons/fc'
 import shareVideo from '../assets/share.mp4'
-import Klickker from '../assets/Klickker.png'
+import Klickkar from '../assets/Klickkar.png'
 import { GoogleLogin } from 'react-google-login'
 import { useEffect } from 'react';
 import { gapi } from 'gapi-script';
@@ -62,8 +62,8 @@ const Login = () => {
         />
         <div className='absolute flex flex-col justify-center items-center top-0 right-0 left-0 bottom-0 bg-blackOverlay'>
         <div className='flex items-center justify-center p-5' >
-          <img src={Klickker} alt="Klickker" width="130px" className='mr-1 ml-2'/>
-          <h1 className='font-bold text-white text-6xl shadow'>Klickker</h1>
+          <img src={Klickkar} alt="Klickkar" width="130px" className='mr-1 ml-2'/>
+          <h1 className='font-bold text-white text-6xl shadow'>Klickkar</h1>
         </div>
         <div className='shadow-2xl'>
           <GoogleLogin

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { RiHomeFill } from 'react-icons/ri';
 import { IoIosArrowForward } from 'react-icons/io';
-import Klickker from '../assets/Klickker.png';
+import Klickkar from '../assets/Klickkar.png';
 import { categories } from '../utils/data';
 
 const isNotActiveStyle = 'flex items-center px-5 gap-3 text-gray-500 hover:text-black transition-all duration-200 ease-in-out capitalize';
@@ -21,7 +21,7 @@ const Sidebar = ({ closeToggle, user }) => {
           className="flex px-5 gap-2 my-6 pt-1 w-190 items-center"
           onClick={handleCloseSidebar}
         >
-          <img src={Klickker} alt="Klickker" className="w-full" />
+          <img src={Klickkar} alt="Klickkar" className="w-full" />
         </Link>
         <div className="flex flex-col gap-5">
 
